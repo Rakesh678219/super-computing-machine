@@ -59,7 +59,7 @@ def app():
     json_file.close()
     model = model_from_json(loaded_model_json)
     # load weights into new model
-    model.load_weights("saved_model/model2.h5")
+    model.load_weights("saved_model/model.h5")
 
     # load file
     uploaded_file = st.file_uploader(
