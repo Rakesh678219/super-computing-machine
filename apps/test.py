@@ -65,11 +65,11 @@ def app():
     uploaded_file = st.file_uploader(
         "Upload Your Eye Image Here ", type="jpg")
 
-    map_dict = {0: 'Bulging',
+    map_dict = {0: 'Bulging eyes',
                 1: 'Cataract',
-                2: 'Crossed',
+                2: 'Crossed eyes',
                 3: 'Glaucoma ',
-                4: 'Normal eye',
+                4: 'Normal ',
                 5: 'Uveitis'
                 }
 
